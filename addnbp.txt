@@ -1,0 +1,38 @@
+ Colonnes  . . :    1  80                             Edition                                                    LOLECOUSTR/QRPGSRC 
+ SEU==>                                                                                                                      ADDPTS 
+ FMT ** ...+... 1 ...+... 2 ...+... 3 ...+... 4 .. .+... 5 ...+... 6 ...+... 7 ...+... 8                                            
+        **************  Début des données  **************************************************************************************   
+0001.00 ****************************************                                             180711                                 
+0002.00 ***   *    AJOUTS DE POINTS          ***                                             180711                                 
+0003.00 ****************************************                                             180711                                 
+0004.00      H                                                                    ADDPTS     180711                                 
+0005.00      FFLSCLT  UP  E           K        DISK                                          180711                                 
+0006.00       * DECLARATIONS DE VARIABLES                                                    180711                                 
+0007.00      C                     Z-ADD0         NBP     40                                 180711                                 
+0008.00       * RENOMMAGE DES ZONES                                                          180711                                 
+0009.00      IFLSCLT                                                                         180711                                 
+0010.00      I              ID                              IDT                              180711                                 
+0011.00      I              NOM                             NME                              180711                                 
+0012.00      I              PRN                             FNM                              180711                                 
+0013.00      I              NPT                             NBP                              180711                                 
+0014.00       *CLES FICHIERS                                                                 180711                                 
+0015.00      C           KLSCLT    KLIST                                                     180711                                 
+0016.00      C                     KFLD           IDT                                        180711                                 
+0017.00      C                     KFLD           NME                                        180711                                 
+0018.00      C                     KFLD           FNM                                        180711                                 
+0019.00      C                     KFLD           NBP                                        180711                     
+0020.00       * DECLARATION DES PARAMETRE                                                    180711                                 
+0021.00      C           *ENTRY    PLIST                                                     180711                                 
+0022.00      C           $NBP      PARM           NBPP    40                                 180711                                 
+0023.00      C           $IDT      PARM           IDTP                                       180711                                 
+0024.00       * OPERATIONS                                                                   180711                                 
+0025.00      C           KLSCLT    SETLLFLSCLT                                               180711                                 
+0026.00      C                     SETOF                         10                          180711                                 
+0027.00      C           ITR       DOUNEQIDTP                                                180711                                 
+0028.00      C           *IN10     ANDNE'1'                                                  180711                                 
+0029.00      C                     READCFLSCLT                   10                          180711                                 
+0030.00      C                     ENDDO                                                     180711                                 
+0031.00      C                     Z-ADDNBPP      NBP                                        180711                                 
+0032.00      C                     UPDATFLSCLT                                               180711                                 
+0033.00      C                     SETON                         LR                          180711                                 
+        ***************  Fin des données  ***************************************************************************************   

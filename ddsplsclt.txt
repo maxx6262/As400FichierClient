@@ -1,0 +1,27 @@
+ Colonnes  . . :    1  80                             Edition                                                    LOLECOUSTR/QDDSSRC 
+ SEU==>                                                                                                                       LSCLT 
+ FMT LF .....A..........T.Name++++++.Len++TDpB......Functions+++++++++++++++++++++++++++                                            
+        **************  Début des données  **************************************************************************************   
+0001.00                 R FLSCLT                    PFILE(LOLECOUSTR/PLSCLT)                 180711                                 
+0002.00                   IDT                                                                180711                                 
+0003.00                   NOM                                                                180711                                 
+0004.00                   PRN                                                                180711                                 
+0005.00                   NPT                                                                180711                                 
+0006.00                 K IDT                                                                180711                                 
+0007.00                 K NOM                                                                180711                                 
+0008.00                 K PRN                                                                180711                                 
+0009.00                 K NPT                                                                180711                                 
+        ***************  Fin des données  ***************************************************************************************   
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+                                                                                                                                    
+ F3=Exit   F4=Invite   F5=Réafficher   F9=Rappel   F10=Curseur   F11=Basculer                                                       
+ F16=Répéter recherche   F17=Répéter remplacement   F24=Autres touches                                                              
+                                         (C) COPYRIGHT IBM CORP. 1981, 2005.                                                        
