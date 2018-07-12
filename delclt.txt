@@ -1,0 +1,28 @@
+ Colonnes  . . :    1  80                             Edition                                                    LOLECOUSTR/QRPGSRC 
+ SEU==>                                                                                                                      DELCLT 
+ FMT H  .....H........1..CDYI....S..............1.F...............................Pgm-id                                            
+        **************  Début des données  **************************************************************************************   
+0001.00      H            Y                                                       DELCLT     180712                                 
+0002.00       * DECLARATION DU FICHIER                                                       180712                                 
+0003.00      FLSCLT   UF  E           K        DISK                                          180712                                 
+0004.00       * DECLARATION DE LA CLEF DU FICHIER                                            180712                                 
+0005.00      C           KLSCLT    KLIST                                                     180712                                 
+0006.00      C                     KFLD           IDT                                        180712                                 
+0007.00       * DECLARATION DES PARAMETRES                                                   180712                                 
+0008.00      C           *ENTRY    PLIST                                                     180712                                 
+0009.00      C                     PARM           ID      60                                 180712                                 
+0010.00       * TRAITEMENT                                                                   180712                                 
+0011.00      C                     MOVELID        IDT                                        180712                                 
+0012.00      C*          KLSCLT    CHAINLSCLT                40                              180712                                 
+0013.00      C*          *IN40     IFEQ '0'                                                  180712                                 
+0014.00      C*                    DELETLSCLT                                                180712                                 
+0015.00      C*                    ENDIF                                                     180712                                 
+0016.00       *                                                                              180712                                 
+0017.00      C           KLSCLT    DELETLSCLT                40                              180712                                 
+0018.00      C                     SETON                         LR                          180712                                 
+
+        ***************  Fin des données  ***************************************************************************************   
+                                                                                                                                    
+ F3=Exit   F4=Invite   F5=Réafficher   F9=Rappel   F10=Curseur   F11=Basculer                                                       
+ F16=Répéter recherche   F17=Répéter remplacement   F24=Autres touches                                                              
+                                         (C) COPYRIGHT IBM CORP. 1981, 2005.                                                        

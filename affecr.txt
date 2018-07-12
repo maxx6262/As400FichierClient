@@ -1,0 +1,49 @@
+ Colonnes  . . :    1  80                             Edition                                                    LOLECOUSTR/QRPGSRC 
+ SEU==>                                                                                                                      AFFECR 
+ FMT *  ..... *. 1 ...+... 2 ...+... 3 ...+... 4 ...+... 5 ...+... 6 ...+... 7 ...+... 8                                            
+        **************  Début des données  **************************************************************************************   
+0001.00       *                                                                              180712                                 
+0002.00       *AFFICHE ECRAN                                                                 180712                                 
+0003.00      H            Y                                                       AFFECR     180712                                 
+0004.00       *DECLARATION DU FICHIER                                                        180712                                 
+0005.00      FLSCLT   UF  E           K        DISK                      A                   180712                                 
+0006.00      FTSTDSPF CF  E                    WORKSTN                                       180712                                 
+0007.00       *DECLARATION DE LA CLE DU FICHIER                                              180712                                 
+0008.00      C           KLSCLT    KLIST                                                     180712                                 
+0009.00      C                     KFLD           IDT                                        180712                                 
+0010.00       *                                                                              180712                                 
+0011.00      C           *ENTRY    PLIST                                                     180712                                 
+0012.00      C                     PARM           IDT                                        180712                                 
+0013.00       *----------------------------------------------------------------------*       180712                                 
+0014.00      C           KLSCLT    CHAINLSCLT                50                              180712                                 
+0015.00      C           *IN50     IFEQ '1'                                                  180712                                 
+0016.00      C                     EXSR RECHID                                               180712                                 
+0017.00      C                     ENDIF                                                     180712                                 
+0018.00       *                                                                              180712                                 
+0019.00      C                     EXFMTE01                                                  180712                                 
+0020.00      C           *IN13     IFEQ '1'                                                  180712                                 
+0021.00      C           *IN50     IFEQ '0'                                                  180712                                 
+0022.00      C                     UPDATFLSCLT                                               180712                                 
+0023.00      C                     ELSE                                                      180712                                 
+0024.00      C                     WRITEFLSCLT                                               180712                                 
+0025.00      C                     ENDIF                                                     180712                                 
+0026.00      C                     ENDIF                                                     180712                                 
+0027.00      C                     SETON                         LR                          180712                                 
+0028.00       *-------------------------------------------------------*                      180712                                 
+0029.00      C           RECHID    BEGSR                                                     180712                                 
+0030.00      C           *HIVAL    SETGTLSCLT                                                180712                                 
+0031.00      C                     READPLSCLT                    40                          180712                                 
+0032.00      C   40                Z-ADD0         IDT                                        180712                                 
+0033.00      C                     ADD  1         IDT                                        180712                                 
+0034.00      C                     MOVEL*BLANK    NOM                                        180712                                 
+0035.00      C                     MOVEL*BLANK    PRN                                        180712                                 
+0036.00      C                     Z-ADD0         NPT                                        180712                                 
+0037.00      C                     Z-ADD0         SUP                                        180712                                 
+0038.00      C                     ENDSR                                                     180712                                 
+0039.00       *                                                                              180712                                 
+        ***************  Fin des données  ***************************************************************************************   
+                                                                                                                                    
+                                                                                                                                    
+ F3=Exit   F4=Invite   F5=Réafficher   F9=Rappel   F10=Curseur   F11=Basculer                                                       
+ F16=Répéter recherche   F17=Répéter remplacement   F24=Autres touches                                                              
+                                         (C) COPYRIGHT IBM CORP. 1981, 2005.                                                        

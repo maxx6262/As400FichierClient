@@ -1,0 +1,34 @@
+ Colonnes  . . :    1  80                             Edition                                                    LOLECOUSTR/QRPGSRC 
+ SEU==>                                                                                                                      NEWCLT 
+ FMT *  ..... *. 1 ...+... 2 ...+... 3 ...+... 4 ...+... 5 ...+... 6 ...+... 7 ...+... 8                                            
+        **************  Début des données  **************************************************************************************   
+0001.00       *AJOUT D'UN CLIENT                                                             180712                                 
+0002.00      H            Y                                                       ADDCLT     180712                                 
+0003.00       *DECLARATION DU FICHIER                                                        180712                                 
+0004.00      FLSCLT   IF  E           K        DISK                      A                   180712                                 
+0005.00       *DECLARATION DE LA CLE DU FICHIER                                              180712                                 
+0006.00      C           KLSCLT    KLIST                                                     180712                                 
+0007.00      C                     KFLD           IDT                                        180712                                 
+0008.00       * PARAMETRES                                                                   180712                                 
+0009.00      C           *ENTRY    PLIST                                                     180712                                 
+0010.00      C                     PARM           NME    15                                  180712                                 
+0011.00      C                     PARM           PRNM   15                                  180712                                 
+0012.00       * ON PARCOURT LA LISTE DES CLIENTS                                             180712                                 
+0013.00      C                     Z-ADD1         IDT                                        180712                                 
+0014.00      C           KLSCLT    SETLLFLSCLT                                               180712                                 
+0015.00      C           KLSCLT    READELSCLT                    50                          180712                                 
+0016.00      C           *IN50     DOWEQ'0'                                                  180712                                 
+0017.00      C                     ADD  1         IDT                                        180712                                 
+0018.00      C           KLSCLT    READELSCLT                    50                          180712                                 
+0019.00      C                     ENDDO                                                     180712                                 
+0020.00      C                     MOVE NME       NOM                                        180712                                 
+0021.00      C                     MOVE PRNM      PRN                                        180712                                 
+0022.00      C                     Z-ADD0         NPT                                        180712                                 
+0023.00      C                     Z-ADD0         SUP                                        180712                                 
+0024.00      C                     WRITEFLSCLT                 40                            180712                                 
+0025.00      C                     SETON                         LR                          180712                                 
+        ***************  Fin des données  ***************************************************************************************   
+                                                                                                                                    
+ F3=Exit   F4=Invite   F5=Réafficher   F9=Rappel   F10=Curseur   F11=Basculer                                                       
+ F16=Répéter recherche   F17=Répéter remplacement   F24=Autres touches                                                              
+                                         (C) COPYRIGHT IBM CORP. 1981, 2005.                                                        

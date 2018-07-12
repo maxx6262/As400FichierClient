@@ -1,0 +1,32 @@
+ Colonnes  . . :    1  80                             Edition                                                    LOLECOUSTR/QDDSSRC 
+ SEU==>                                                                                                                     TSTDSPF 
+ FMT A* .....A*. 1 ...+... 2 ...+... 3 ...+... 4 ...+... 5 ...+... 6 ...+... 7 ...+... 8                                            
+        **************  Début des données  **************************************************************************************   
+0000.10      A*%%TS  SD  20180712  175021  LOBONTE     REL-V5R4M0  5722-WDS                  180712                                 
+0000.20      A*%%EC                                                                          180712                                 
+0000.30      A                                      DSPSIZ(24 80 *DS3)                       180712                                 
+0000.40      A          R E01                                                                180712                                 
+0000.50      A*%%TS  SD  20180712  175021  LOBONTE     REL-V5R4M0  5722-WDS                  180712                                 
+0000.60      A                                      CF13(13 'Valider')                       180712                                 
+0000.70      A                                  1 35'fiche client'                           180712                                 
+0000.80      A                                      COLOR(WHT)                               180712                                 
+0000.90      A                                  5  5'NUMERO CLIENT'                          180712                                 
+0001.00      A                                      COLOR(WHT)                               180712                                 
+0001.10      A            IDT       R        O  5 19REFFLD(FLSCLT/IDT LOLECOUSTR/LSCLT)      180712                                 
+0001.20      A                                      EDTCDE(Z)                                180712                                 
+0001.30      A                                  7  5'NOM'                                    180712                                 
+0001.40      A                                      COLOR(WHT)                               180712                                 
+0001.50      A            NOM       R        B  7 18REFFLD(FLSCLT/NOM LOLECOUSTR/LSCLT)      180712                                 
+0001.60      A                                  9  5'PRENOM'                                 180712                                 
+0001.70      A                                      COLOR(WHT)                               180712                                 
+0001.80      A            PRN       R        B  9 18REFFLD(FLSCLT/PRN LOLECOUSTR/LSCLT)      180712                                 
+0001.90      A                                 11  5'NOMBRE DE POINTS'                       180712                                 
+0002.00      A                                      COLOR(WHT)                               180712                                 
+0002.10      A            NPT       R        B 11 30REFFLD(FLSCLT/NPT LOLECOUSTR/LSCLT)      180712                                 
+0002.20      A                                      EDTCDE(3)                                180712                                 
+0002.30      A                                 22  2'F13 = VALIDATION'                       180712                                 
+0002.40      A                                      COLOR(BLU)                               180712                                 
+                                                                                                                                    
+ F3=Exit   F4=Invite   F5=Réafficher   F9=Rappel   F10=Curseur   F11=Basculer                                                       
+ F16=Répéter recherche   F17=Répéter remplacement   F24=Autres touches                                                              
+                                         (C) COPYRIGHT IBM CORP. 1981, 2005.                                                        

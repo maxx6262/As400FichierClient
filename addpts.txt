@@ -1,0 +1,35 @@
+ Colonnes  . . :    1  80                             Edition                                                    LOLECOUSTR/QRPGSRC 
+ SEU==>                                                                                                                      ADDPTS 
+ FMT ** ...+... 1 ...+... 2 ...+... 3 ...+... 4 .. .+... 5 ...+... 6 ...+... 7 ...+... 8                                            
+        **************  Début des données  **************************************************************************************   
+0001.00 ****************************************                                             180711                                 
+0002.00 ***   *    AJOUTS DE POINTS          ***                                             180711                                 
+0003.00 ****************************************                                             180711                                 
+0004.00      H                                                                    ADDPTS     180711                                 
+0005.00      FLSCLT   UF  E           K        DISK                                          180712                                 
+0006.00       **CLE FICHIER                                                                  180712                                 
+0007.00      C           KLSCLT    KLIST                                                     180711                                 
+0008.00      C                     KFLD           IDT                                        180711                                 
+0009.00       * DECLARATION DES PARAMETRES                                                   180712                                 
+0010.00      C           *ENTRY    PLIST                                                     180711                                 
+0011.00      C                     PARM           IDIN    60                                 180712                                 
+0012.00      C                     PARM           NBPP    30                                 180712                                 
+0013.00       * OPERATIONS                                                                   180711                                 
+0014.00      C                     MOVE IDIN      IDINWW  60                                 180712                                 
+0015.00      C                     Z-ADDIDINWW    IDT                                        180712                                 
+0016.00      C           KLSCLT    CHAINLSCLT                4050                            180712                                 
+0017.00      C           *IN50     IFEQ '0'                                                  180712                                 
+0018.00      C           *IN40     ANDEQ'0'                                                  180712                                 
+0019.00      C                     MOVE NBPP      NBPPWW  30                                 180712                                 
+0020.00      C                     ADD  NBPPWW    NPT              SI TROUVE ON AJOUTE       180712                                 
+0021.00      C                     UPDATFLSCLT                     ET UPDATE                 180712                                 
+0022.00      C                     ELSE                                                      180712                                 
+0023.00      C                     SETOF                       4050   SINON ON ETEINT        180712                                 
+0024.00      C                     ENDIF                                                     180712                                 
+0025.00      C                     SETON                         LR                          180711                                 
+        ***************  Fin des données  ***************************************************************************************   
+                                                                                                                                    
+                                                                                                                                    
+ F3=Exit   F4=Invite   F5=Réafficher   F9=Rappel   F10=Curseur   F11=Basculer                                                       
+ F16=Répéter recherche   F17=Répéter remplacement   F24=Autres touches                                                              
+                                         (C) COPYRIGHT IBM CORP. 1981, 2005.                                                        

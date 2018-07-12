@@ -1,0 +1,49 @@
+                                                                      DD/DD/DD 
+OOOOOOOOOO                                                            TT:TT:TT 
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+OPT  IDT   NOM             PRENOM       POINTS                                 
+ B  666     OOOOOOOOOOOO     OOOOOOOOOOOO                                      
+ B  666     OOOOOOOOOOOO     OOOOOOOOOOOO                                      
+ B  666     OOOOOOOOOOOO     OOOOOOOOOOOO                                      
+ B  666     OOOOOOOOOOOO     OOOOOOOOOOOO                                      
+ B  666     OOOOOOOOOOOO     OOOOOOOOOOOO                                      
+ B  666     OOOOOOOOOOOO     OOOOOOOOOOOO                                      
+ B  666     OOOOOOOOOOOO     OOOOOOOOOOOO                                      
+ B  666     OOOOOOOOOOOO     OOOOOOOOOOOO                                      
+ B  666     OOOOOOOOOOOO     OOOOOOOOOOOO                                      
+ B  666     OOOOOOOOOOOO     OOOOOOOOOOOO                                      
+ B  666     OOOOOOOOOOOO     OOOOOOOOOOOO                                      
+ B  666     OOOOOOOOOOOO     OOOOOOOOOOOO                                      
+                                                                               
+                                                                               
+                                                                               
+                                                                               
+Ecran de travail pour CTL1. SFL1 affiché en supplément.                        
+
+                                                                       DD/DD/DD 
+ OOOOOOOOOO                                                            TT:TT:TT 
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+ OPT  IDT   NOM             PRENOM       POINTS                                 
+  B  666     OOOOOOOOOOOO     OOOOOOOOOOOO                                      
+  B  666     OOOOOOOOOOOO     OOOOOOOOOOOO                                      
+  B  666     OOOOOOOOOOOO     OOOOOOOOOOOO                                      
+  B  666     OOOOOOOOOOOO     OOOOOOOOOOOO                                      
+  B  666     OOOOOOOOOOOO     OOOOOOOOOOOO                                      
+  B  666     OOOOOOOOOOOO     OOOOOOOOOOOO                                      
+  B  666     OOOOOOOOOOOO     OOOOOOOOOOOO                                      
+  B  666     OOOOOOOOOOOO     OOOOOOOOOOOO                                      
+  B  666     OOOOOOOOOOOO     OOOOOOOOOOOO                                      
+  B  666     OOOOOOOOOOOO     OOOOOOOOOOOO                                      
+  B  666     OOOOOOOOOOOO     OOOOOOOOOOOO                                      
+  B  666     OOOOOOOOOOOO     OOOOOOOOOOOO                                      
+                                                                                
+                                                                                
+                                                                                
+ F3=FIN                                                                         
+ Format(s) supplémentaire(s) sélectionné(s) : SFL1 CTL1                         

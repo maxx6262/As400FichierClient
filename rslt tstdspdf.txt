@@ -1,0 +1,24 @@
+                                  fiche client                                  
+                                                                                
+                                                                                
+                                                                                
+    NUMERO CLIENT 666666                                                        
+                                                                                
+    NOM          BBBBBBBBBBBBBBB                                                
+                                                                                
+    PRENOM       BBBBBBBBBBBBBBB                                                
+                                                                                
+    NOMBRE DE POINTS         999                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+ F13 = VALIDATION                                                               
+                                                                                
+ Ecran de travail pour E01 : faites AIDE pour les touches de fonction           
